@@ -1,0 +1,1004 @@
+{
+  "all_news_items": [
+    {
+      "item_url": "https://finance.yahoo.com/news/a-broadening-playbook-wall-street-sees-stock-market-gains-beyond-tech-160556466.html",
+      "title": "'A broadening playbook': Wall Street sees stock market gains beyond tech",
+      "time": "19h ago  AAPL          ^GSPC          AMAT"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/zacks-market-edge-highlights-tsla-074100028.html",
+      "title": "Zacks Market Edge Highlights: TSLA, NVDA and LLY",
+      "time": "3h ago  TSLA   -0.23%       NVDA          LLY"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-vs-ryanairs-ceo-033109532.html",
+      "title": "Elon Musk Vs. Ryanair's CEO Just Turned Into A Betting Game — And Traders Are Now Wagering On A Full-Blown Takeover",
+      "time": "7h ago  RYAAY          TSLA   -0.23%       NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/cathie-wood-just-indirectly-implied-015000215.html",
+      "title": "Cathie Wood Just Indirectly Implied That Long-Term Treasury Bonds Have 35% Upside",
+      "time": "9h ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/cathie-wood-sees-spacex-trillion-013109146.html",
+      "title": "Cathie Wood Sees SpaceX As Trillion-Dollar Contender, Optimistic On Tesla's Robotaxi Future",
+      "time": "9h ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/ford-ended-2025-strong-statement-220500635.html",
+      "title": "Ford Ended 2025 With a Strong Statement for Investors",
+      "time": "12h ago  F       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/barclays-says-tesla-tsla-fundamentals-203402767.html",
+      "title": "Barclays Says Tesla’s (TSLA) Fundamentals Are Taking a Back Seat",
+      "time": "14h ago  TSLA   -0.23%    RIVN"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-drops-surprise-curveball-190300808.html",
+      "title": "Elon Musk drops a surprise curveball on Nvidia",
+      "time": "15h ago  TSLA   -0.23%    NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/cathie-wood-buys-ai-chips-182740393.html",
+      "title": "Cathie Wood Buys AI Chips, Sells Tesla",
+      "time": "16h ago  TSLA   -0.23%    AMD       AVGO"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-resume-dojo3-progress-ai5-182617659.html",
+      "title": "Tesla to Resume Dojo3 After Progress on AI5 Chip Design",
+      "time": "16h ago  TSLA   -0.23%    SSNLF"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-poised-gain-canada-ev-175317718.html",
+      "title": "Tesla Poised to Gain From Canada EV Tariff Deal",
+      "time": "17h ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/husband-32-months-live-1-170114945.html",
+      "title": "Husband, 32, With 'Months To Live' Has $1.2M Life Insurance And Asks If He Should Put 50% Of It In Annuity So His Wife Doesn't Blow It",
+      "time": "17h ago  RDDT       GOOG       META"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/magnificent-7-over-stocks-replace-161400706.html",
+      "title": "The Magnificent 7 is Over: What Stocks Will Replace It?",
+      "time": "18h ago  TSLA   -0.23%    LLY       GOOG"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-benefit-canada-lifts-tariffs-153818841.html",
+      "title": "Tesla to Benefit as Canada Lifts Tariffs on Chinese Made EVs",
+      "time": "19h ago  TSLA   -0.23%    BYDDF       NIO"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-cathie-wood-says-robotaxis-153255341.html",
+      "title": "Tesla: Cathie Wood Says Robotaxis Are the Real Growth Engine",
+      "time": "19h ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/a43048ff-e81e-3544-8713-5502b291a96b/tesla-set-to-restart-ai.html",
+      "title": "Tesla Set to Restart AI Supercomputer Project. Why Musk Has Changed His Mind.",
+      "time": "20h ago  TSLA   -0.23%       AMD          NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/d2f940d6-400b-3962-9d5a-be158a5ea5a2/asml-stock-drops-due-to-trade.html",
+      "title": "ASML Stock Drops Due to Trade War Worries. These Chip Companies Are Suffering Too.",
+      "time": "21h ago  ASML          ASMLF          STMEF"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/wall-street-pushes-volatility-trades-134225495.html",
+      "title": "Wall Street Pushes Volatility Trades as AI Rally Meets Policy Risk",
+      "time": "21h ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/clickhouse-secures-400m-series-d-123835366.html",
+      "title": "ClickHouse secures $400m in Series D led by Dragoneer",
+      "time": "22h ago  SNOW          DATB.PVT         META"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-nasdaq-tsla-bull-bear-153808849.html",
+      "title": "Tesla (NASDAQ: TSLA) Bull, Base and Bear Price Prediction and Forecast",
+      "time": "22h ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/autonomous-driving-market-sees-robust-114300151.html",
+      "title": "Autonomous Driving Market Sees Robust Growth with CAGR of 17.63% Expected By 2033 | Astute Analytica",
+      "time": "23h ago  TSLA   -0.23%       NVDA          MBLY"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/sec-approves-expanded-option-expirations-113650138.html",
+      "title": "SEC Approves Expanded Option Expirations for Magnificent Seven Stocks",
+      "time": "23h ago  GOOG          AMZN          AAPL"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-accelerates-silicon-roadmap-ai5-113400470.html",
+      "title": "Tesla Accelerates Silicon Roadmap with AI5 and AI6 Cycles",
+      "time": "23h ago  TSLA   -0.23%       SSNLF"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tsla-vs-byddy-whats-better-085400157.html",
+      "title": "TSLA vs. BYDDY: What's the Better Long-Term Play?",
+      "time": "1d ago  TSLA   -0.23%       BYDDF"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-poised-early-winner-canada-063806836.html",
+      "title": "Tesla poised to be early winner as Canada opens door to Chinese-made EVs",
+      "time": "1d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/palantir-billionaire-peter-thiel-sells-065800486.html",
+      "title": "Palantir Billionaire Peter Thiel Sells Nvidia and Tesla Shares, Then Buys an AI Stock That's Up Nearly 460,000% Since Its IPO",
+      "time": "1d ago  TSLA   -0.23%    NVDA       PLTR"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/f0e42c82-6efd-36b1-81ad-d5c6209850b3/the-magnificent-seven-drove.html",
+      "title": "The Magnificent Seven Drove Markets. Now They’re Pulling in Different Directions.",
+      "time": "1d ago  GOOG       NVDA       ^GSPC"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/syrah-extends-tesla-offtake-cure-013346603.html",
+      "title": "Syrah Extends Tesla Offtake Cure Deadline as Vidalia Qualification Continues",
+      "time": "1d ago  SRHYY       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/assessing-tesla-tsla-valuation-recent-010902315.html",
+      "title": "Assessing Tesla (TSLA) Valuation After Recent Share Price Pullback And AI Growth Ambitions",
+      "time": "1d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/australias-syrah-resources-buys-more-235709376.html",
+      "title": "Australia's Syrah Resources buys more time for Tesla graphite supply deal",
+      "time": "1d ago  SYR.AX       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-fires-america-first-major-220000149.html",
+      "title": "Tesla Fires Up America’s First Major Lithium Refinery",
+      "time": "1d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-struggling-global-ev-market-153109260.html",
+      "title": "Tesla Is Struggling — The Global EV Market Isn't",
+      "time": "1d ago  TSLA   -0.23%    BYDDF"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/where-rivian-1-140500275.html",
+      "title": "Where Will Rivian Be in 1 Year?",
+      "time": "1d ago  RIVN       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/lucid-group-next-tesla-131700455.html",
+      "title": "Is Lucid Group the Next Tesla?",
+      "time": "1d ago  TSLA   -0.23%    LCID"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/buy-tesla-stock-jan-28-125300865.html",
+      "title": "Should You Buy Tesla Stock Before Jan. 28?",
+      "time": "1d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/waymo-tesla-robotaxi-rival-werides-121441091.html",
+      "title": "Waymo, Tesla Robotaxi Rival WeRide's Fleet Surpasses 1,000 AVs, Boasts Driverless Operations In 3 Cities: 'Tens Of Thousands…'",
+      "time": "1d ago  WRD          TSLA   -0.23%       NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/ross-gerber-says-elon-musk-110106769.html",
+      "title": "Ross Gerber Says Elon Musk Is 'Partially Responsible' For EV Rollback In US",
+      "time": "1d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-needs-prove-2026-022000551.html",
+      "title": "What Tesla Needs to Prove in 2026​",
+      "time": "2d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-announces-change-tesla-011705081.html",
+      "title": "Elon Musk Announces Change to a Tesla Fee That Could Impact Everything",
+      "time": "2d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/gary-black-likes-elon-musks-235124088.html",
+      "title": "Gary Black Likes Elon Musk's Tesla But Not TSLA, Draws Comparison With Amazon—Says Nvidia 'Democratizes Autonomy'",
+      "time": "2d ago  AMZN   +0.39%       TSLA   -0.23%       NVDA   -0.54%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/youtuber-mkbhd-hails-tesla-model-215345892.html",
+      "title": "YouTuber MKBHD Hails Tesla Model Y Performance, Calls EV Giant's Self-Driving Technology 'The Best'",
+      "time": "2d ago  TSLA   -0.23%       GOOG          AAPL"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/jim-cramer-says-elon-musks-163112321.html",
+      "title": "Jim Cramer Says Elon Musk's OpenAI Lawsuit Is 'The Real Deal' As Kalshi Bettors Raise Odds Of xAI CEO Winning",
+      "time": "2d ago  OPAI.PVT         TSLA   -0.23%       NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/5-38-17-cents-inside-143139913.html",
+      "title": "From $5.38 to 17 Cents: Inside Senator McConnell's 97% Stock Wipeout",
+      "time": "2d ago  LAZR          NVDA          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/the-solar-panel-contracts-that-can-kill-home-sales-133039793.html",
+      "title": "The solar panel contracts that can kill home sales",
+      "time": "1d ago  TSLA   -0.23%       XEL"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/marketbeat-week-review-01-12-120000860.html",
+      "title": "MarketBeat Week in Review – 01/12 - 01/16",
+      "time": "2d ago  ALB       ALB-PA       COST"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/teslas-fsd-like-almost-everything-else-is-becoming-a-subscription-110013673.html",
+      "title": "Tesla's FSD, like almost everything else, is becoming a subscription",
+      "time": "1d ago  TSLA   -0.23%    AMZN"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-touts-first-kind-lithium-104615446.html",
+      "title": "Tesla Touts First-Of-Its-Kind Lithium Refinery In US — Elon Musk Calls It 'Largest' In America",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/99a63783-85d3-336f-998e-c32547df6e23/supersize-ceo-pay-packages.html",
+      "title": "Supersize CEO Pay Packages Aren’t Paying Off for Shareholders",
+      "time": "3d ago  GH       IAC       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-once-backed-10-063508973.html",
+      "title": "Elon Musk once backed a $10 billion OpenAI ICO, internal notes show",
+      "time": "3d ago  OPAI.PVT      TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/exclusive-elon-musk-boring-co-005719168.html",
+      "title": "Exclusive: Elon Musk’s Boring Co. is studying a tunnel project to Tesla Gigafactory near Reno",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/dividend-investor-earns-30k-month-000137613.html",
+      "title": "Dividend Investor Earns $30K a Month After 37 Years, Says He Started Investing in 1988 With Student Loans",
+      "time": "3d ago  WES       QQQ       ET"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/d5cd4f6d-eac4-3c0c-91c6-3312357ec19f/elon-musk-says-the-sec-is.html",
+      "title": "Elon Musk Says the SEC Is Unconstitutional",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/snowflake-databricks-challenger-clickhouse-hits-220508969.html",
+      "title": "Snowflake, Databricks challenger ClickHouse hits $15B valuation",
+      "time": "3d ago  SNOW       DATB.PVT      META"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/bdfeba7a-9434-379f-8524-2f14a1a8e6a2/while-big-tech-gets-the.html",
+      "title": "While Big Tech Gets the Headlines, Small-Caps Are Rallying. Will It Last?",
+      "time": "3d ago  ALK       DUOL       KNX"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/301758ba-6939-3c92-ab3c-a914e2cbf584/funds-make-deep-connection.html",
+      "title": "Funds Make Deep Connection With This AI Play — So Do Nvidia, Tesla",
+      "time": "3d ago  TEL       TSLA   -0.23%    NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-net-worth-large-203110925.html",
+      "title": "Elon Musk Net Worth Is So Large, He Could Buy Every MLB, NBA, NFL, NHL Team And Still Have $103 Billion Left",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-brags-kalshi-bettors-183110941.html",
+      "title": "Elon Musk Brags As Kalshi Bettors Boost His Chances In High-Stakes Trial With Sam Altman-Led OpenAI: 'I've Never Lost A War'",
+      "time": "3d ago  OPAI.PVT         MSFT   +0.70%       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-stock-fall-ahead-q4-182037480.html",
+      "title": "Tesla Stock Rises Ahead of Q4 Earnings Report",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/hyundai-hires-tesla-optimus-robotics-181516365.html",
+      "title": "Hyundai Hires Tesla Optimus Robotics Chief",
+      "time": "3d ago  005380.KS   -0.21%       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-granted-more-time-us-175217338.html",
+      "title": "Tesla granted more time in US investigation into its self-driving tech",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/refused-invest-tesla-years-now-010600701.html",
+      "title": "I refused to invest in Tesla for years — but now’s the time to bet on Elon Musk",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/database-management-firm-clickhouse-valued-164936709.html",
+      "title": "ClickHouse valued at $15 billion as database analytics firm rides AI wave",
+      "time": "3d ago  DATB.PVT         META          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/ross-gerber-warns-teslas-technology-163106804.html",
+      "title": "Ross Gerber Warns Tesla's Technology Edge Is 'Fading' As FSD Moves To Subscription-Only Model",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-robotaxi-bulls-fear-nvidia-162656461.html",
+      "title": "Should Tesla Robotaxi Bulls Fear NVIDIA and Waymo?",
+      "time": "3d ago  NVDA          TSLA   -0.23%       UBER"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-gets-more-time-fsd-162623190.html",
+      "title": "Tesla Gets More Time in FSD Safety Probe",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/prediction-first-dividend-champion-magnificent-152000997.html",
+      "title": "Prediction: This Will Be the First Dividend Champion from the \"Magnificent Seven\"",
+      "time": "3d ago  MSFT          META          AAPL"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/rivian-rises-31-3-months-142800176.html",
+      "title": "Rivian Rises 31% in 3 Months: Should You Buy, Sell or Hold the Stock?",
+      "time": "3d ago  RIVN       TSLA   -0.23%    LCID"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-might-not-richest-141608125.html",
+      "title": "Elon Musk Might Not Be the Richest Man Alive If He Had Listened To His Mom—'I Told Him Not To Do An Electric Car As Well As Rockets'",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-stock-buy-jan-28-140700354.html",
+      "title": "Is Tesla Stock a Buy Before Jan. 28?",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/cathie-wood-selling-meta-platforms-140003163.html",
+      "title": "Cathie Wood Is Selling Meta Platforms Stock. Should You?",
+      "time": "3d ago  META       NVDA       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-gets-extension-respond-nhtsa-135504709.html",
+      "title": "Tesla gets extension to respond to NHTSA’s Full Self-Driving probe",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-gets-5-week-extension-132531563.html",
+      "title": "Tesla gets 5-week extension in US probe of Full Self-Driving traffic violations",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/market-alert-ai-rally-extends-125533978.html",
+      "title": "Market Alert: AI Rally Extends, Druckenmiller Dumps Nvidia, Tesla Stalls",
+      "time": "3d ago  TSLA   -0.23%    ASTS       SLV"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/lithium-ion-battery-market-projected-123000691.html",
+      "title": "Lithium-Ion Battery Market Projected to Reach US$ 864.91 Billion by 2035, Reflecting Structural Shifts in Global Energy Storage Demand Says Astute Analytica",
+      "time": "3d ago  F       VLKAF       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/watch-february-earnings-nvidia-microsoft-122535502.html",
+      "title": "Watch February Earnings From NVIDIA and Microsoft to Predict Where This Mag7 ETF Goes Next",
+      "time": "3d ago  NVDA       MAGS       MSFT"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-backs-warren-buffett-120100510.html",
+      "title": "Elon Musk backs Warren Buffett’s ‘5-minute’ fix for America’s debt problem. But would it actually work?",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/20725ae4-3a08-3972-a39b-4ecb5a8cb89e/tesla-stock-is-going-nowhere.html",
+      "title": "Tesla Stock Is Going Nowhere Fast. Here’s What Can Get It Moving.",
+      "time": "3d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/electric-vehicles-lithium-demand-surge-103938905.html",
+      "title": "Electric Vehicles Update - Lithium Demand Surge Drives Strategic Mining Moves",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/best-trillion-dollar-stock-buy-082600010.html",
+      "title": "The Best Trillion-Dollar Stock to Buy in January 2026, According to Wall Street (Hint: Not Tesla)",
+      "time": "4d ago  NVDA          TSLA   -0.23%       AVGO"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-turns-surprising-partner-critical-013700126.html",
+      "title": "Tesla turns to surprising partner for critical new hardware",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/top-analyst-questions-teslas-valuation-013109157.html",
+      "title": "Top Analyst Questions Tesla's Valuation Amid Declining Sales: 'Doesn't Make Mathematical Sense'",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-model-y-emerges-best-003110384.html",
+      "title": "Tesla Model Y Emerges As Best-Selling EV In US For 2025 Despite 15% Drop In Q4 Sales — Ford F150 Lightning Edges Out Cybertruck",
+      "time": "4d ago  TSLA   -0.23%       F"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/reality-check-everyone-ignoring-221622099.html",
+      "title": "The reality check everyone’s ignoring",
+      "time": "4d ago  TSM          RIVN          NFLX"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/buy-advanced-micro-devices-amd-213600759.html",
+      "title": "Should You Buy Advanced Micro Devices (AMD) Stock After Its 21% Correction?",
+      "time": "4d ago  AMD          NVDA          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/gene-munster-says-apples-move-213113224.html",
+      "title": "Gene Munster Says Apple's Move From OpenAI's ChatGPT To Google Gemini Significantly Raises Chances Of New Siri Succeeding: 'Nice Job'",
+      "time": "4d ago  AAPL          GOOG          MSFT"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/a4d71371-fd80-3505-8d55-b5c3c1f2a2a3/tesla-stock-drops-amid-report.html",
+      "title": "Tesla Stock Drops Amid Report Musk’s SpaceX Is Looking For Bankers. Why That Matters.",
+      "time": "4d ago  TSLA   -0.23%       ^GSPC          ^IXIC"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/aed518e5-94a5-34ca-9533-589a0083947e/why-elon-musk-and-tesla-are.html",
+      "title": "Why Elon Musk And Tesla Are Going The Subscription Route With FSD",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/wolfe-downgrades-rivian-rivn-cash-203322468.html",
+      "title": "Wolfe Downgrades Rivian (RIVN) on Cash Burn, Sees Delayed AI and Autonomy Catalysts",
+      "time": "4d ago  RIVN       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/9de0dec0-7488-3ad5-a1e0-d978b04ed869/cathie-wood-is-selling-tesla-.html",
+      "title": "Cathie Wood Is Selling Tesla. Here’s the Chip Stock She’s Buying.",
+      "time": "4d ago  AVGO       ^IXIC       TSM"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/dear-tesla-stock-fans-mark-195551265.html",
+      "title": "Dear Tesla Stock Fans, Mark Your Calendars for February 14",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/8f1f215b-e407-3dd7-a6af-2a537715ea46/china-s-tesla-crushing-ev.html",
+      "title": "China's Tesla-Crushing EV Company Creeps Into U.S. Market",
+      "time": "4d ago  TSLA   -0.23%    F       BYDDF"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/cathie-wood-drops-50-million-190300937.html",
+      "title": "Cathie Wood drops $50 million on AI stock, dumps favorite",
+      "time": "4d ago  TSLA   -0.23%    AVGO       ORCL"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-earnings-loom-almost-no-172000765.html",
+      "title": "Tesla’s Earnings Loom With Almost No Room for Error",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/blbd-tsla-better-value-stock-164002013.html",
+      "title": "BLBD or TSLA: Which Is the Better Value Stock Right Now?",
+      "time": "4d ago  BLBD       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/3-technology-stocks-sell-2026-163117495.html",
+      "title": "3 Technology Stocks to Sell in 2026",
+      "time": "4d ago  PLTR       AAPL       ^GSPC"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-stock-gains-why-spacex-154222025.html",
+      "title": "Tesla Stock Gains. Why SpaceX IPO Chatter Moving Shares Ahead of Earnings",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/cathie-wood-dumps-tesla-again-153935188.html",
+      "title": "Cathie Wood Dumps Tesla Again -- Loads Up $50 Million in Broadcom Stock",
+      "time": "4d ago  AVGO          TSLA   -0.23%       KLAR"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/teslas-model-y-discounts-enough-151200545.html",
+      "title": "Will Tesla's Model Y Discounts Be Enough to Spark India Demand?",
+      "time": "4d ago  TSLA   -0.23%       BYDDF   -1.63%       BYDDY   -1.09%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/pan-american-silver-conagra-brands-143400493.html",
+      "title": "Pan American Silver and Conagra Brands have been highlighted as Zacks Bull and Bear of the Day",
+      "time": "4d ago  PAAS   -1.22%       PAASF   -1.50%       BYDDY   -1.09%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-wants-pay-him-141508281.html",
+      "title": "Elon Musk Wants You to Pay Him Monthly",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-end-one-time-fsd-135000254.html",
+      "title": "Tesla to End One-Time FSD Purchase: Why the Shift Matters",
+      "time": "4d ago  TSLA   -0.23%       NVDA          RIVN   -2.29%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/32cd720f-a5cf-378d-9384-5113843d8e71/dow-jones-futures-nvidia.html",
+      "title": "Dow Jones Futures: Nvidia Chipmaker Taiwan Semiconductor Jumps, Lifting Sector; Goldman Earnings Mixed",
+      "time": "4d ago  BSX   -2.18%       TSM   +0.22%       NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-says-tesla-stop-130121848.html",
+      "title": "Elon Musk Says Tesla Will Stop Selling FSD Post Valentine's Day: 'Only Available As A Monthly Subscription'",
+      "time": "4d ago  TSLA   -0.23%       NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/exclusive-mytra-raises-120-million-122811787.html",
+      "title": "Exclusive: Mytra raises $120 million Series C to scale supply chain robotics amid industry boom",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/rich-debt-differently-learn-121306178.html",
+      "title": "How the Rich Use Debt Differently — and What You Can Learn From It",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/aluminum-coils-electric-rigs-roadone-120000402.html",
+      "title": "From Aluminum coils to electric rigs: RoadOne deepens ties with Tesla",
+      "time": "4d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/latest-news-energy-transition-greenbacker-113708659.html",
+      "title": "Latest News In Energy Transition - Greenbacker Sells Solar Portfolio to Altus Power",
+      "time": "4d ago  AMPS          CVX          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/where-tesla-stock-1-103500775.html",
+      "title": "Where Will Tesla Stock Be in 1 Year?​",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/2-ev-stocks-could-heading-032000139.html",
+      "title": "2 EV Stocks That Could Be Heading for $0, and 1 With Multibagger Potential Left",
+      "time": "5d ago  TSLA   -0.23%       LCID          RIVN"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/c058cf85-0370-31b5-a517-debe917570fc/review-preview-not-so.html",
+      "title": "Review & Preview: Not So Magnificent",
+      "time": "5d ago  NVDA          ^GSPC          ^DJI"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-tsla-suffers-larger-drop-224506480.html",
+      "title": "Tesla (TSLA) Suffers a Larger Drop Than the General Market: Key Insights",
+      "time": "5d ago  TSLA   -0.23%       ^GSPC          ^DJI"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-slams-google-apple-213106434.html",
+      "title": "Elon Musk Slams Google, Apple Deal: 'Unreasonable Concentration Of Power'",
+      "time": "5d ago  AAPL          GOOG          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/bdb25680-0721-3af1-850f-e87abab26152/these-stocks-are-today%E2%80%99s.html",
+      "title": "These Stocks Are Today’s Movers: Bank of America, Wells Fargo, Citigroup, Tesla, Rivian, Intel, AppLovin, and More",
+      "time": "5d ago  C          BAC          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/69a35fa9-aa20-3643-9bc8-9c6269ecc0c0/rivian-stock-dives-after.html",
+      "title": "Rivian Stock Dives After Second Sell Downgrade. Why Its Gains Have Made Wall Street Wary.",
+      "time": "5d ago  RIVN          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/bbecf6b8-8b88-32e8-8479-d937df8c7497/tesla-stock-drops-elon-musk.html",
+      "title": "Tesla Stock Drops. Elon Musk Makes a Surprise Decision on FSD.",
+      "time": "5d ago  TSLA   -0.23%       ^DJI          ^GSPC"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/97dd740e-bf09-3afd-ae3a-243c17ceaeca/nasdaq-drops-1-small-stocks.html",
+      "title": "Nasdaq Drops 1%. Small Stocks Take Lead From Big Tech.",
+      "time": "5d ago  ^IXIC          ^GSPC          ^DJI"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-retreat-as-tech-leads-market-lower-banks-slide-after-earnings-210107562.html",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq retreat as tech leads market lower, banks slide after earnings",
+      "time": "5d ago  SI=F   +7.19%       ^GSPC   -0.06%       ^IXIC   -0.06%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/sector-consumer-stocks-mixed-afternoon-204732141.html",
+      "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+      "time": "5d ago  AMZN   +0.39%       HMC   -0.84%       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/61e2fe91-84e8-3bcf-a668-acd0a6962241/why-the-nasdaq-composite-is.html",
+      "title": "Why the Nasdaq Composite Is Lagging the S&P 500 and Dow",
+      "time": "5d ago  ^GSPC   -0.06%       ^DJI   -0.17%       MAGS   -0.29%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-puts-full-self-driving-201500454.html",
+      "title": "Tesla puts ‘Full Self-Driving’ mode behind a monthly paywall",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/video/expect-market-gains-ev-entries-195307538.html",
+      "title": "Expect Market Gains From EV New Entries: McNeill",
+      "time": "5d ago  TSLA   -0.23%       GM          005380.KS"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-must-deliver-teslas-194700620.html",
+      "title": "Elon Musk must deliver on Tesla's Robotaxi promise in 2026, Deutsche Bank says",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/ford-motor-company-f-plans-191433565.html",
+      "title": "Ford Motor Company (F) Plans to Introduce its AV Technology, Here’s What You Need to Know",
+      "time": "5d ago  F          TSLA   -0.23%       GM"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/video/2026-biggest-ai-trends-self-190121445.html",
+      "title": "2026’s Biggest AI Trends: Self-Driving Cars | TSLA Stock, GOOGL Stock, UBER Stock, NVDA Stock",
+      "time": "5d ago  NVDA       TSLA   -0.23%    GOOG"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/ca2d631c-b408-3a24-93b6-21506ba670e4/tesla%E2%80%99s-full-self-driving.html",
+      "title": "Tesla’s Full Self-Driving System Will Only Be Available Via Subscription, Musk Says",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/california-wealth-tax-doesn-t-173130643.html",
+      "title": "California’s wealth tax doesn’t fix the real problem: Cash-poor billionaires who borrow money, tax-free, to live on",
+      "time": "5d ago  TSLA   -0.23%    GOOG"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/did-nvidia-just-unleash-tesla-171553064.html",
+      "title": "Did Nvidia Just Unleash a Tesla-Killer?",
+      "time": "5d ago  TSLA   -0.23%    NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/soon-youll-only-able-rent-171533238.html",
+      "title": "Soon you'll only be able to rent Tesla's FSD",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-end-one-time-full-170803783.html",
+      "title": "Tesla to End One-Time Full Self-Driving Sales After Feb. 14",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/teslas-baltic-push-revive-momentum-170600891.html",
+      "title": "Will Tesla's Baltic Push Revive Its Momentum in Europe?",
+      "time": "5d ago  TSLA   -0.23%       BYDDF          BYDDY"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/why-rivian-shares-crashing-today-170203377.html",
+      "title": "Why Rivian Shares Are Crashing Today",
+      "time": "5d ago  RIVN          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-reportedly-struggling-offload-inventory-164931811.html",
+      "title": "Tesla reportedly struggling to offload inventory in India amid cancellations",
+      "time": "5d ago  TSLA   -0.23%       BYDDF          BYDDY"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/2-magnificent-seven-stocks-may-162000016.html",
+      "title": "These 2 \"Magnificent Seven\" Stocks May Announce Stock Splits in 2026",
+      "time": "5d ago  GOOG          AMZN          META"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-releases-7-seater-model-153111090.html",
+      "title": "Tesla Releases 7-Seater Model Y In US As Improved China Sales Provide Boost To Elon Musk's TSLA Amid Delivery Shortfall",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/p-global-mobility-2025-loyalty-153000974.html",
+      "title": "S&P Global Mobility 2025 Loyalty Awards Reveal Divergent Paths to Customer Retention; General Motors and Tesla Secure Top Honors",
+      "time": "5d ago  GM          SPGI          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-general-152900304.html",
+      "title": "The Zacks Analyst Blog Highlights General Motors, Toyota Motor, Ford, Tesla and Stellantis",
+      "time": "5d ago  TSLA   -0.23%       TOYOF          TM"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/thanks-trump-elon-musk-prophesy-152639310.html",
+      "title": "Thanks to Trump, Elon Musk’s Prophesy About Chinese EV Companies Might Come True",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/a1fd7bf5-8622-3de2-85eb-0d2f40dbeb9e/delaware-rights-its-wrong-in.html",
+      "title": "Delaware Rights Its Wrong In Tesla Case",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-only-offer-subscriptions-full-150137130.html",
+      "title": "Tesla will only offer subscriptions for Full Self-Driving (Supervised) going forward",
+      "time": "5d ago  TSLA   -0.23%       F   -1.52%       RIVN   -2.29%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/video/china-targets-us-cybersecurity-firms-144233529.html",
+      "title": "China targets US cybersecurity firms, Tesla's FSD subscription",
+      "time": "5d ago  TSLA   -0.23%       PANW   -0.02%       CHKP   -1.59%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-killer-142023628.html",
+      "title": "The Tesla Killer",
+      "time": "5d ago  TSLA   -0.23%       005380.KS   -0.21%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-stock-slips-full-self-133656035.html",
+      "title": "Tesla Stock Slips as Full Self-Driving Goes Subscription-Only",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/aa2d3955-b1a6-34d9-9ff4-9c21645ed8c5/dow-jones-futures-fall-amid.html",
+      "title": "Dow Jones Futures Fall Amid Wells Fargo, Citigroup, BofA Earnings; Tesla FSD To Be Subscription Only",
+      "time": "5d ago  ^DJI   -0.17%       GOOG   -0.85%       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-moves-fsd-subscription-only-130442870.html",
+      "title": "Tesla Moves FSD to Subscription Only, Ending One-Time Sales",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/four-reasons-buy-overlooked-group-130200007.html",
+      "title": "Four reasons to buy this overlooked group of stocks early in 2026",
+      "time": "5d ago  NVDA          AAPL          MSFT"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-offer-full-self-driving-125901547.html",
+      "title": "Tesla to Offer Full Self Driving Software Exclusively by Subscription",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/electric-vehicles-today-design-drives-123724798.html",
+      "title": "Electric Vehicles Today - Design Drives Consumer Choices in Modern Vehicle Purchases",
+      "time": "5d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/magnificent-7-stocks-dying-wall-113857386.html",
+      "title": "The ‘Magnificent 7’ stocks are dying, and Wall Street is pretty happy about it",
+      "time": "5d ago  ^GSPC          AAPL          META"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/most-popular-stocks-funds-investing-2025-113311183.html",
+      "title": "Most popular stocks and funds investors bought in 2025",
+      "time": "5d ago  BP.L          ^IXIC          ^DJI"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/nvidia-just-delivered-very-bad-105100650.html",
+      "title": "Nvidia Just Delivered Very Bad News for Tesla Stock Investors",
+      "time": "6d ago  TSLA   -0.23%       NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/proposed-billionaires-tax-california-rattles-051151812.html",
+      "title": "Proposed billionaires' tax in California rattles Silicon Valley, entangles Gov. Newsom",
+      "time": "6d ago  GOOG          PYPL          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/wall-street-sends-message-tesla-050300492.html",
+      "title": "Wall Street sends message on Tesla after Nvidia self-driving move",
+      "time": "6d ago  NVDA          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/q3-earnings-highlights-tesla-nasdaq-033318786.html",
+      "title": "Q3 Earnings Highlights: Tesla (NASDAQ:TSLA) Vs The Rest Of The Automobile Manufacturing Stocks",
+      "time": "6d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/breaking-down-big-3-investing-235500786.html",
+      "title": "Breaking Down the Big 3 Investing Styles",
+      "time": "6d ago  ^GSPC"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/why-lucid-stock-still-looks-234900379.html",
+      "title": "Why Lucid Stock Still Looks Too Risky for Long-Term Investors​",
+      "time": "6d ago  LCID          RIVN          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-rival-xpeng-hires-morgan-230211852.html",
+      "title": "Tesla Rival Xpeng Hires Morgan Stanley, JPMorgan To Prepare Hong Kong Listing For Aeroht: Report",
+      "time": "6d ago  XPEV          MS          INTC"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/strive-tumbles-12-reverse-stock-224152138.html",
+      "title": "Strive tumbles 12% as reverse stock split stumps investors despite Semler acquisition",
+      "time": "6d ago  SMLR          BTC-USD          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/a4c15dd9-34a1-3c7d-8e28-efa7d4e75c3f/tesla-stock-slips-why-this.html",
+      "title": "Tesla Stock Slips. Why This Analyst Is ‘Tactically Constructive’ Anyway.",
+      "time": "6d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/billionaire-peter-thiel-made-big-212500073.html",
+      "title": "Billionaire Peter Thiel Made a Big Bet on Two Stocks for 2026 (Hint: It's Not Nvidia)",
+      "time": "6d ago  MSFT          NVDA          AAPL"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/9d3ba761-0ccd-3cd3-8e76-a53e4ed730f1/president-trump-to-u-s-car.html",
+      "title": "President Trump to U.S. Car Makers: ‘Let China Come.’",
+      "time": "6d ago  ^DJI          ^GSPC          F"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/own-lucid-stock-look-durable-203900482.html",
+      "title": "If You Own Lucid Stock, Take a Look at This Durable Stock Instead",
+      "time": "6d ago  LCID          WMT          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/803ae042-7000-369d-8acf-953a4fa0f60f/nasdaq-turns-lower-amid-mag-7.html",
+      "title": "Nasdaq Turns Lower Amid Mag 7 Struggles",
+      "time": "6d ago  ^IXIC          ^DJI          ^GSPC"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-targets-europes-value-buyers-182800006.html",
+      "title": "Tesla Targets Europe's Value Buyers With New Long Range Model Y",
+      "time": "6d ago  TSLA   -0.23%       HYMLF          XPEV"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/eu-weighs-minimum-price-plan-175557306.html",
+      "title": "EU Weighs Minimum Price Plan for Chinese EV Imports",
+      "time": "6d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-stock-rises-delivery-growth-174307879.html",
+      "title": "Tesla Stock Rises on Delivery Growth and AI Investments",
+      "time": "6d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/stream-realty-partners-announces-sale-170900081.html",
+      "title": "Stream Realty Partners Announces Sale of Three-Building Empire West Portfolio in Houston's West Submarket",
+      "time": "6d ago  TSLA   -0.23%       FERG"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/strive-inc-nasdaq-asst-semler-170200428.html",
+      "title": "Strive, Inc. (Nasdaq: ASST) and Semler Scientific (Nasdaq: SMLR) Announce Shareholder Approval for Acquisition of Semler Scientific",
+      "time": "6d ago  ASST   -1.33%       SATA   +2.58%       SMLR   0.00%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-responds-xai-retention-163112345.html",
+      "title": "Elon Musk Responds To xAI Retention Criticism, Says Company's  'Regretted Departures' Are Minimal: 'We Are Accelerating Faster Than...'",
+      "time": "6d ago  XAAI.PVT         NVDA          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/where-tesla-stock-3-years-162538464.html",
+      "title": "Where Will Tesla Stock Be in 3 Years?",
+      "time": "6d ago  TSLA   -0.23%       AMZN   +0.39%       NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/america-favorite-ev-isn-t-162300040.html",
+      "title": "America’s New Favorite EV Isn’t Tesla—and the Stock May Surprise",
+      "time": "6d ago  GM   -0.11%       TSLA   -0.23%       LCID"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/video/microsoft-pay-more-power-us-154306821.html",
+      "title": "Microsoft to pay more for power, US Bancorp's $1B deal for BTIG",
+      "time": "6d ago  MSFT   +0.70%       TSLA   -0.23%       USB   +0.83%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/gave-wife-full-access-retirement-141609181.html",
+      "title": "He Gave His Wife Full Access To Their Retirement. At 80, She Cheated And Lost $750K To Scammers. 'She Thinks That She's Saner Than All Of Us'",
+      "time": "6d ago  NVDA          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-still-trails-market-lot-141542122.html",
+      "title": "Tesla Still Trails the Market–by a Lot",
+      "time": "6d ago  LCID          TSLA   -0.23%       ^GSPC   -0.06%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/wall-street-price-prediction-tesla-150303844.html",
+      "title": "Wall Street Price Prediction: Tesla’s Share Price Forecast for 2026",
+      "time": "6d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/tesla-profit-engine-sputtering-elon-120059689.html",
+      "title": "Tesla’s profit engine is sputtering. Elon Musk has bet its future on a promise he’s far from delivering",
+      "time": "6d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/week-energy-transition-renewable-energy-113717974.html",
+      "title": "This Week In Energy Transition - Renewable Energy Gains Boost with Major $300 Million Investment",
+      "time": "6d ago  TSLA   -0.23%       CVX          EQNR"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/byd-xpeng-stocks-jump-potential-112907234.html",
+      "title": "BYD and Xpeng Stocks Jump on Potential EU Policy Shift",
+      "time": "6d ago  BYDDF   -1.63%       XPEV   -1.10%       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/fords-4-2-dividend-yield-020300858.html",
+      "title": "Ford's 4.2% dividend yield masks a hidden risk",
+      "time": "7d ago  F   -1.52%       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/0f813668-11db-3a15-b2e2-bfbadf0c6abe/dow-jones-futures-nvidia-.html",
+      "title": "Dow Jones Futures: Nvidia, Tesla, Walmart Are Key Movers; CPI Inflation Report Next",
+      "time": "7d ago  NVDA          TSLA   -0.23%       WMT   +0.42%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/gm-vs-ford-automaker-better-231500912.html",
+      "title": "GM Vs Ford: Which Automaker is the Better Investment for 2026?",
+      "time": "7d ago  GM   -0.11%       F   -1.52%       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/29d744ef-20a6-35bb-b848-15caeacc000d/stock-market-today-dow-s-p.html",
+      "title": "Stock Market Today: Dow, S&P 500 Close At Highs; Alphabet Hits $4 Trillion Mark (Live Coverage)",
+      "time": "7d ago  GOOG          TSLA   -0.23%       AKAM   +2.14%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-says-saving-retirement-221451637.html",
+      "title": "Elon Musk says saving for retirement is irrelevant because AI is going to create a world of abundance: ‘It won’t matter’",
+      "time": "7d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/e1e1b413-17f6-37a1-ad75-42b25ee7e66f/sell-rivian-stock-it-needs.html",
+      "title": "Sell Rivian Stock. It Needs More AI, Analyst Says.",
+      "time": "7d ago  RIVN   -2.29%       ^DJI   -0.17%       ^GSPC   -0.06%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/2c0e0a87-010d-3606-9c34-c8f85895b643/how-tesla-stock-could-become.html",
+      "title": "How Tesla Stock Could Become a ‘DREAM’ Come True",
+      "time": "7d ago  TSLA   -0.23%       XAAI.PVT"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/1-artificial-intelligence-ai-stock-152700741.html",
+      "title": "1 Artificial Intelligence (AI) Stock to Buy Before It Doubles and Joins Tesla and Meta Platforms in the $1 Trillion Club, According to Multiple Wall Street Analysts",
+      "time": "7d ago  TSLA   -0.23%       META   -0.09%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/why-market-more-sensitive-latest-143100825.html",
+      "title": "Why the market is more sensitive to this latest showdown between Trump and Fed chief Jerome Powell",
+      "time": "7d ago  GC=F          SI=F   +7.19%       WMT   +0.42%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/top-electric-autonomous-driving-stocks-133100279.html",
+      "title": "Top Electric & Autonomous Driving Stocks to Invest in Now",
+      "time": "7d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/evs-america-releases-report-showing-133000386.html",
+      "title": "EVs for All America Releases New Report Showing Republican Resistance to EVs Easing Amid Job and China Concerns",
+      "time": "7d ago  TSLA   -0.23%       F   -1.52%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/top-magnificent-seven-stocks-buy-111000573.html",
+      "title": "The Top \"Magnificent Seven\" Stocks to Buy in 2026, According to Wall Street",
+      "time": "7d ago  GOOG   -0.85%       NVDA          WSFX.BO   -2.99%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/latest-news-electric-vehicles-curbside-103946066.html",
+      "title": "Latest News In Electric Vehicles - Curbside Charging Bollards Revolutionize Urban Transport Infrastructure",
+      "time": "8d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/china-says-deal-eu-steps-093812070.html",
+      "title": "China and EU agree on steps to resolve EV imports dispute",
+      "time": "8d ago  TSLA   -0.23%       BAMXF   0.00%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/m/b2a8f15d-bffb-34f4-8cda-cb18f8c7a371/prediction-markets-face-a-new.html",
+      "title": "Prediction Markets Face a New Test This Earnings Season",
+      "time": "8d ago  AAPL   -1.05%       ICE   +0.40%       TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/5-trillion-humanoid-robots-handle-050100336.html",
+      "title": "The $5 Trillion Question: Can Humanoid Robots Handle Jobs as Well as People?",
+      "time": "8d ago  NVDA          TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/apple-ceo-tim-cook-could-023108071.html",
+      "title": "Apple CEO Tim Cook Could Buy 92,984 iPhone 17s With His 2025 Compensation",
+      "time": "8d ago  AAPL   -1.05%       INTC          NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/elon-musk-turned-2-000-193610541.html",
+      "title": "How Elon Musk Turned $2,000 at 17 Into One of the World's Biggest Fortunes",
+      "time": "8d ago  TSLA   -0.23%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/5-companies-racing-dethrone-tesla-161421336.html",
+      "title": "5 Companies Racing to Dethrone Tesla—And the One Already Winning",
+      "time": "8d ago  RIVN   -2.29%       TSLA   -0.23%       NVDA"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/etf-proof-healthcare-rebound-real-160300473.html",
+      "title": "This ETF Is Proof That the Healthcare Rebound Is Real",
+      "time": "8d ago  ^GSPC   -0.06%       NONOF   +11.27%       NVO   +9.12%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/money-expert-sending-warning-signs-150720870.html",
+      "title": "This Money Expert Is Sending Warning Signs About the Economy — and How To Protect Yourself",
+      "time": "8d ago  NVDA          TSLA   -0.23%       GOOG   -0.85%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/news/3-reasons-watch-lucid-stock-133900558.html",
+      "title": "3 Reasons to Watch Lucid Stock in 2026",
+      "time": "8d ago  LCID   +0.70%       RIVN   -2.29%       UBER   +0.56%"
+    },
+    {
+      "item_url": "https://finance.yahoo.com/video/waymo-zoox-tesla-wins-robotaxi-130812499.html",
+      "title": "Waymo, Zoox, Tesla: Who Wins the Robotaxi Race?",
+      "time": "8d ago  TSLA   -0.23%       LYFT   -2.91%       UBER   +0.56%"
+    }
+  ]
+}
