@@ -5,7 +5,9 @@
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 import pandas as pd
+import os
 import json
+import time
 from tqdm import tqdm
 
 
@@ -27,7 +29,7 @@ class Crawler():
         pass
     
     def get_page_url(self, page_id):
-        url_template = "https://vn.investing.com/indices/vn-news/2/{page_id}"
+        url_template = "https://vn.investing.com/indices/vn-news/{page_id}"
         url = url_template.format(page_id=page_id)
         return url
     
@@ -42,7 +44,7 @@ class Crawler():
     
     
     def parse_news_details_in_page(self, source_content):
-        source_soup = BeautifulSoup(source_content)
+        source_soup = BeautifulSoup(source_content, "html.parser")
         all_news_html = source_soup.find_all("div", class_="block w-full sm:flex-1")
         page_news_items = []
         for new_html in all_news_html:
@@ -82,17 +84,22 @@ if __name__=="__main__":
     max_pages = 10001
     # max_pages = 1
     for page_id in tqdm(range(max_pages)):
-        page_url = crawler.get_page_url(page_id=page_id)
+        page_url = crawler.get_page_url(page_id=page_id+1)
+        save_path = rf"C:\APAC\all_projects\finetuning-airflow-project\projects\newest_crawl\save\all_news_item_{page_id}.json"
+        if os.path.isfile(save_path):
+            continue
+        
         page_news_items = crawler.crawling_news_urls(page_url=page_url)
         all_news_items.extend(page_news_items)
         if not page_news_items:
             print("Stop Crawling")
             break
-
-    save_json(
-        path=r"F:\UNIVERSITY\Project\Sentiment-Analysis-Airflow\Financial-Sentiment-Analysis\projects\newest_crawl\all_news_item.json",
-        content=all_news_items
-    )
+        
+        save_json(
+            path=save_path,
+            content=page_news_items
+        )
+        time.sleep(0.5)
         
     
     
