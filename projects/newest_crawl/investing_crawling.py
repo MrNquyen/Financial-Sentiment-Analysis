@@ -5,14 +5,29 @@
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 import pandas as pd
+import json
 from tqdm import tqdm
 
+
+#---- Load json
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as file:
+        json_content = json.load(file)
+        return json_content
+    
+#---- Save json
+def save_json(path, content):
+    with open(path, "w", encoding="utf-8") as file:
+        json.dump(content, file, ensure_ascii=False, indent=3)
+
+
+#---- Crawler
 class Crawler():
     def __init__(self):
         pass
     
-    def load_page_url(self, page_id):
-        url_template = "https://www.investing.com/equities/nvidia-corp-news/{page_id}"
+    def get_page_url(self, page_id):
+        url_template = "https://vn.investing.com/indices/vn-news/2/{page_id}"
         url = url_template.format(page_id=page_id)
         return url
     
@@ -23,14 +38,14 @@ class Crawler():
         return res
     
     def get_html_content(self, response):
-        return res.read().decode('utf-8')
+        return response.read().decode('utf-8')
     
     
-    def parse_thumnail_details_in_source(source_content):
+    def parse_news_details_in_page(self, source_content):
         source_soup = BeautifulSoup(source_content)
         all_news_html = source_soup.find_all("div", class_="block w-full sm:flex-1")
-        all_news_items = []
-        for new_html in tqdm(all_news_html):
+        page_news_items = []
+        for new_html in all_news_html:
             item_title_html = new_html.find("a", class_="block text-base font-bold leading-5 hover:underline sm:text-base sm:leading-6 md:text-lg md:leading-7")
             item_url = item_title_html.get("href", "")
             title = item_title_html.text
@@ -46,17 +61,38 @@ class Crawler():
                 "title": title.strip(),
                 "time": item_posted_time.strip(),
             }
-            all_news_items.append(item)
-        return all_news_items
+            page_news_items.append(item)
+        return page_news_items
     
     
     def crawling_news_urls(self, page_url):
         response = self.request_url(page_url)
         if response.status==200:
-            pass
+            html_content = self.get_html_content(response=response)
+            page_news_items = self.parse_news_details_in_page(source_content=html_content)
+            return page_news_items
         else:
-            print("Stop ")
-        self.get_html_content()
+            print("Page doesn't exist")
+            return []
+        
+
+if __name__=="__main__":
+    crawler = Crawler()
+    all_news_items = []
+    max_pages = 10001
+    # max_pages = 1
+    for page_id in tqdm(range(max_pages)):
+        page_url = crawler.get_page_url(page_id=page_id)
+        page_news_items = crawler.crawling_news_urls(page_url=page_url)
+        all_news_items.extend(page_news_items)
+        if not page_news_items:
+            print("Stop Crawling")
+            break
+
+    save_json(
+        path=r"F:\UNIVERSITY\Project\Sentiment-Analysis-Airflow\Financial-Sentiment-Analysis\projects\newest_crawl\all_news_item.json",
+        content=all_news_items
+    )
         
     
     
