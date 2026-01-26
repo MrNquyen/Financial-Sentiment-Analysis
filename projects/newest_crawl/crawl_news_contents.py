@@ -26,9 +26,8 @@ class PlaywrightScrolling():
         self.page = None
         self.url = None
     
-    async def initialize(self, url, resume_page=None):
+    async def initialize(self):
         """Initialize the playwright instance and browser"""
-        self.url = url
         self.playwright = await async_playwright().start()
         self.browser = await self.playwright.chromium.launch(
             headless=False,
@@ -123,55 +122,60 @@ def get_id_from_path(path):
 
             
 async def main():
-    url = "https://vn.investing.com/news/stock-market-news/2001-doc-gi-truoc-gio-giao-dich-chung-khoan-2514598"
+    # url = "https://vn.investing.com/news/stock-market-news/2001-doc-gi-truoc-gio-giao-dich-chung-khoan-2514598"
     # cache_url = f"https://webcache.googleusercontent.com/search?q=cache:{quote(target_url)}"
     
     scroller = PlaywrightScrolling()
-    await scroller.initialize(url=url)
+    await scroller.initialize()
     
     #-- Configuration
     time_wait = 0.5
     
     #-- Parsing news
-    page_urls_dir = r"C:\APAC\all_projects\finetuning-airflow-project\projects\newest_crawl\save_news_urls"
+    # page_urls_dir = r"C:\APAC\all_projects\finetuning-airflow-project\projects\newest_crawl\save_news_urls"
+    page_urls_dir = r"F:\UNIVERSITY\Project\Sentiment-Analysis-Airflow\Financial-Sentiment-Analysis\projects\newest_crawl\save_news_urls"
     page_urls_paths = [os.path.join(page_urls_dir, file_name) for file_name in os.listdir(page_urls_dir)]
     for page_urls_path in tqdm(page_urls_paths):
-        save_content_dir = r"C:\APAC\all_projects\finetuning-airflow-project\projects\newest_crawl\save_news_contents"
-        save_id = get_id_from_path(page_urls_path)
-        save_path = os.path.join(save_content_dir, f"all_news_content_{save_id}.json")
-        page_urls_json = load_json(page_urls_path)
-        
-        #~ Gather
-        if os.path.isfile(save_path):
-            continue
-        
-        news_urls = []
-        news_titles = []
-        news_times = []
-        for item in page_urls_json:
-            news_urls.append(item["item_url"])
-            news_titles.append(item["title"])
-            news_times.append(item["time"])
+        try:
+            # save_content_dir = r"C:\APAC\all_projects\finetuning-airflow-project\projects\newest_crawl\save_news_contents"
+            save_content_dir = r"F:\UNIVERSITY\Project\Sentiment-Analysis-Airflow\Financial-Sentiment-Analysis\projects\newest_crawl\save_news_contents"
+            save_id = get_id_from_path(page_urls_path)
+            save_path = os.path.join(save_content_dir, f"all_news_content_{save_id}.json")
+            page_urls_json = load_json(page_urls_path)
             
-        tasks = []
-        for url in news_urls:
-            tasks.append(scroller.get_news_details(url))
+            #~ Gather
+            if os.path.isfile(save_path):
+                continue
             
-        news_details = await asyncio.gather(*tasks)
-        page_details = [
-            {
-                "title": title,
-                "time": time,
-                **detail,
-            }
-            for title, time, detail in zip(news_titles, news_times, news_details)
-        ]
-        
-        #-- Save parsing news contents
-        save_json(
-            path=save_path, 
-            content=page_details
-        )    
+            news_urls = []
+            news_titles = []
+            news_times = []
+            for item in page_urls_json:
+                news_urls.append(item["item_url"])
+                news_titles.append(item["title"])
+                news_times.append(item["time"])
+                
+            tasks = []
+            for url in news_urls:
+                tasks.append(scroller.get_news_details(url))
+                
+            news_details = await asyncio.gather(*tasks)
+            page_details = [
+                {
+                    "title": title,
+                    "time": time,
+                    **detail,
+                }
+                for title, time, detail in zip(news_titles, news_times, news_details) if detail is not None
+            ]
+            
+            #-- Save parsing news contents
+            save_json(
+                path=save_path, 
+                content=page_details
+            )    
+        except Exception as e:
+            print(f"Error is: {e}")
         await asyncio.sleep(time_wait)
     await scroller.close()
 
