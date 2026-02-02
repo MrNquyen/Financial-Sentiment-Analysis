@@ -2,15 +2,17 @@
 # Posted by ggorlen, modified by community. See post 'Timeline' for change history
 # Retrieved 2026-01-20, License - CC BY-SA 4.0
 
-from urllib.request import urlopen, Request
-from bs4 import BeautifulSoup
-import pandas as pd
 import os
+import time
 import json
 import aiohttp
 import asyncio
-import time
+import pandas as pd
 from tqdm import tqdm
+from vnstock import Quote
+from vnstock import Trading
+from bs4 import BeautifulSoup
+from urllib.request import urlopen, Request
 from playwright.async_api import async_playwright
 
 
@@ -25,6 +27,18 @@ def load_json(path):
 def save_json(path, content):
     with open(path, "w", encoding="utf-8") as file:
         json.dump(content, file, ensure_ascii=False, indent=3)
+
+
+class StockHistoryCrawler():
+    def __init__(self, symbol='VNINDEX', source='VCI'):
+        self.quote = Quote(symbol=symbol, source=source)
+        self.trading = Trading(symbol=symbol, source=source)
+
+    def crawling_history(self, start_date, end_date):
+        history_df = quote.history(start=start_date, end=end_date)
+        history_df["time"] = pd.to_datetime(history_df["time"])
+        history_df = history_df[(history_df["time"] >= start_date) & (history_df["time"] <= end_date)]
+        return history_df
 
 
 #---- Crawler: Crawling the URL to news
@@ -197,6 +211,7 @@ class PlaywrightCrawler():
 async def main():
     # Init Instance
     news_url_crawler = NewsCrawler()
+    stock_crawler = StockHistoryCrawler()
     content_crawler = PlaywrightCrawler()
     await content_crawler.initialize()
     
@@ -266,6 +281,15 @@ async def main():
                         content=page_details
                     )    
             await asyncio.sleep(0.5)
+            
+    # Crawling stock history
+    start_date = "2021-12-01"
+    end_date = "2026-01-22"
+    history_df = stock_crawler.crawling_history(
+        start_date=start_date,
+        end_date=end_date
+    )
+    history_df.to_csv("./history_df.csv")
         
 
 
