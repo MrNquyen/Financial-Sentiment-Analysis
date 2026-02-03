@@ -15,8 +15,7 @@ from sklearn.metrics import f1_score, accuracy_score
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
-
-
+#=================== TRAINING AND COMPARE ===============
 class RandomForestModel:
     def __init__(
         self,
@@ -24,12 +23,37 @@ class RandomForestModel:
     ):
         self.df = pd.read_csv(data_path)
         self.df.columns = ["label", "title"]
+
+
+    def clean_text(
+        self,
+        text,
+        methods=['rmv_link', 'rmv_punc', 'lower', 'rmv_space'],
+        custom_punctuation = '!"#$%&\'()*+,.-:;<=>?@[\\]^_/`{|}~”“',
+    ):
+        cleaned_text = text
+        for method in methods:
+            if method == 'rmv_link':
+                # Remove link
+                cleaned_text = re.sub('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', '', cleaned_text)
+                cleaned_text = "".join(cleaned_text)
+            elif method == 'rmv_punc':
+                # Remove punctuation
+                cleaned_text = re.sub('[%s]' % re.escape(custom_punctuation), '' , cleaned_text)
+            elif method == 'lower':
+                # Lowercase
+                cleaned_text = cleaned_text.lower()
+            elif method == 'rmv_space':
+                # Remove extra space
+                cleaned_text = re.sub(' +', ' ', cleaned_text)
+                cleaned_text = cleaned_text.strip()
+        return cleaned_text
         
     #-- Preprocessing
     def preprocessing_text(self, text):
         text = text.replace("'s", "")
         text = re.sub(r'[^a-zA-Z0-9\s\.,!?\-\%\$€£]', ' ', text)
-        text = clean_text(
+        text = self.clean_text(
             text=text,
             custom_punctuation="#$}{!)(?|-#$%&<=>?@[\\]^_/`{|}~”“"
         )
@@ -47,7 +71,7 @@ class RandomForestModel:
     #-- Train_test_split
     def df_train_test_split(self, df):
         X, y = df["title"], df["label"]
-        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        self.X_train, self.X_test, self.y_train, self.y_test = self.train_test_split(X, y, test_size=0.2, random_state=42)
         
     
     #-- Feature Extraction
@@ -74,12 +98,11 @@ class RandomForestModel:
         )
         random_search.fit(self.X_train_transform, self.y_train)
         self.best_model = random_search.best_estimator_
-        return best_model
     
     
     #-- Testing on test set
     def test(self):
-        predictions = best_model.predict(self.X_test_transform)
+        predictions = self.best_model.predict(self.X_test_transform)
         return predictions
      
     
@@ -98,7 +121,7 @@ class FinBert:
         self.pipe = pipeline("text-classification", model="ProsusAI/finbert").to(self.device)
         
         
-    def sentiment_analysis(texts):
+    def sentiment_analysis(self, texts):
         """
         Running FinBERT sentiment analysis
 

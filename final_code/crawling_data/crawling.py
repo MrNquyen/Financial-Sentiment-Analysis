@@ -35,7 +35,7 @@ class StockHistoryCrawler():
         self.trading = Trading(symbol=symbol, source=source)
 
     def crawling_history(self, start_date, end_date):
-        history_df = quote.history(start=start_date, end=end_date)
+        history_df = self.quote.history(start=start_date, end=end_date)
         history_df["time"] = pd.to_datetime(history_df["time"])
         history_df = history_df[(history_df["time"] >= start_date) & (history_df["time"] <= end_date)]
         return history_df
