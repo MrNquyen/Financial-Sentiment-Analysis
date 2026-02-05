@@ -14,7 +14,10 @@ from googletrans import Translator
 from playwright.async_api import async_playwright
 from transformers import pipeline
 from vnstock import Quote, Trading
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import RandomizedSearchCV
 
@@ -465,14 +468,26 @@ async def preprocessing_data():
 
 
 #=================== TRAINING AND COMPARE ===============
-class RandomForestModel:
+class BaselineModel:
     def __init__(
         self,
+        model_name,
         data_path
     ):
         self.df = pd.read_csv(data_path)
+        self.model_name = model_name
         self.df.columns = ["label", "title"]
+        self.load_model_class()
 
+    def load_model_class(self):
+        if self.model_name=="svc":
+            self.model_class = SVC
+        elif self.model_name=="lr":
+            self.model_class = LogisticRegression
+        elif self.model_name=="knn":
+            self.model_class = KNeighborsClassifier
+        elif self.model_name=="rf":
+            self.model_class = RandomForestClassifier
 
     def clean_text(
         self,
@@ -542,7 +557,7 @@ class RandomForestModel:
             'bootstrap': [True, False]
         }
         random_search = RandomizedSearchCV(
-            RandomForestClassifier(),
+            self.model_class(),
             param_grid
         )
         random_search.fit(self.X_train_transform, self.y_train)
@@ -598,10 +613,25 @@ class FinBert:
 
 def training_and_testing():
     data_path = r"F:\UNIVERSITY\Project\Sentiment-Analysis-Airflow\Financial-Sentiment-Analysis\project_2_training\data\all-data.csv"
-    rf_model = RandomForestModel(data_path)
+    
+    # Load model instance
+    rf_model = BaselineModel("rf", data_path)
+    lr_model = BaselineModel("lr", data_path)
+    svc_model = BaselineModel("svc", data_path)
+    knn_model = BaselineModel("knn", data_path)
+    
+    # Training and testing model
     rf_model = rf_model.train()
-    pred = rf_model.test()
-    return pred
+    lr_model = lr_model.train()
+    svc_model = svc_model.train()
+    knn_model = knn_model.train()
+
+    # Prediction
+    rf_pred = rf_model.test()
+    lr_pred = lr_model.test()
+    svc_pred = svc_model.test()
+    knn_pred = knn_model.test()
+    return rf_pred, lr_pred, svc_pred, knn_pred
 
 
 #=============== MAIN ====================
@@ -612,7 +642,7 @@ if __name__=="__main__":
     asyncio.run(preprocessing_data())
     print("Preprocessing completed!")
     
-    training_and_testing()
+    rf_pred, lr_pred, svc_pred, knn_pred = training_and_testing()
     print("Training and testing completed!")
 
 
